@@ -1,38 +1,19 @@
-THINC DIGITAL — COMPLETE WEBSITE EXPORT
-
-This package contains the latest website, including the hotel portfolio,
-co-investment and management wording, Hanover Square address, London house
-photograph, and all page animations. Telephone numbers have been removed.
+THINC DIGITAL - COMPLETE WEBSITE
+Exported 28 September 2026. Includes the black-and-blue wordmark, matching website colours and mobile sculpture fix (version 11).
 
 UPLOAD TO YOUR HOSTING ACCOUNT
-1. Extract this ZIP on your computer, or upload it and extract it using your
-   hosting provider's file manager.
-2. Put index.html, the other HTML files, the assets folder and the ventures
-   folder directly inside the website's document root. Depending on your
-   provider this may be called public_html, www, htdocs or a chosen folder.
-   index.html must be directly inside the document root, not inside an extra
-   nested folder.
-3. Keep all filenames and folder structures unchanged. Upload the entire
-   assets folder: the images and animations depend on it.
-4. Connect your domain to the hosting account using the settings supplied
-   by that provider, then enable its SSL/TLS certificate and HTTPS redirect.
-   The certificate is configured by the host; it is not part of this ZIP.
-5. Open the website through its HTTPS address and check each navigation link
-   and the animation replay buttons on the three venture pages.
+1. Extract this ZIP on your computer.
+2. Upload index.html, the other HTML pages, assets/ and ventures/ into the website document root (often public_html, www or htdocs).
+3. Keep the folder structure intact. index.html must sit directly in the document root.
+4. Configure your domain and enable HTTPS/SSL through your hosting provider. SSL certificates are not HTML files and are not included in a ZIP.
+5. Configure your host to use /404.html for missing pages. This page assumes the website is hosted at the domain root.
+6. Test the home page, navigation, venture animations and email links after upload.
 
-TECHNICAL NOTES
-- This is a static website. It needs no database, Node.js, PHP, build command
-  or installation step. A standard static web hosting account is sufficient.
-- HTML files, CSS, JavaScript, images and animation sheets are included.
-- Fonts are requested from Google Fonts over HTTPS. If unavailable, the site
-  uses its fallback fonts. All website images and animations are local.
-- The contact links open the visitor's email application. There is no
-  server-side contact form or built-in comments system.
-- Animation playback requires JavaScript. Users who prefer reduced motion
-  will see reduced or static animations.
-- For local testing, use a local HTTP server or your host's preview URL.
-  Direct file:// opening can restrict animation asset loading in browsers.
-- UPLOAD_INSTRUCTIONS.txt and ASSET_SOURCES.md are reference documents and
-  do not need to be uploaded to the public website folder.
-- This export contains no account credentials or hosting-service metadata.
-- Uploading this ZIP does not change the currently hosted review website.
+CONTENTS
+Nine website pages plus a custom 404 page, logo, photographs, animation artwork, CSS and JavaScript.
+All animations and image assets are included. No Node.js, database or build process is needed.
+Google Fonts are loaded online; fallback fonts are supplied in the CSS.
+Contact links open the visitor's email application. There is no form backend or commenting service.
+The website includes responsive mobile layouts and reduced-motion support. Physical iPhone/Android visual testing remains outstanding.
+UPLOAD_INSTRUCTIONS.txt and ASSET_SOURCES.md are reference documents and do not need to be uploaded publicly.
+This export does not change your current live website.
